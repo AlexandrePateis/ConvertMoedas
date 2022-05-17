@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+*{
+    font-family:sans-serif;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    background: linear-gradient(99.0deg, #000000 , #000000 );
+}
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+section{
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    height: 450px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.1);
+    margin-top: 100px;
+}
+#rs{
+    padding: 10px;
+}
+#cont input{
+ 
+    padding:12px;
+    border-radius: 20px;
+    font-size: 23px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+
+#imagem{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0.99);
+    margin: auto;
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+footer{
+    padding: 40px;
+    color:white;
+}
+#cont{
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+h1{
+    font-size: 2em;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#btn{
+    margin-top: 50px;
+    padding: 15px;
+    border: solid 0.2px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: linear 0.3s;
+}
+#btn1{
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    border: solid 0.2px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 13px;
+    transition: linear 0.3s;
+}
+#btn1:hover{
+    background:rgb(3, 3, 3);
+    color:white;
+}
+#btn:hover{
+    background:rgb(3, 3, 3);
+    color:white;
+}
+input[id="valorEmReal"]{
+    border:solid 1px;
+}
+.modoclaro-escuro{
+    font-size:15px;
+}
+.moedas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em !important;
+    gap: 1em;
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+#cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
